@@ -1,16 +1,37 @@
 # Card Form
 
+<img src="public/screenshots/Screenshot 2025-08-08 at 16-14-50 Card Form.png" alt="">
+
+# Welcome
+
+Thanks for checking out my project
+
+This is an interactive card details form.
+
+Users should be able to:
+
+* Fill in the form and see the card details update in real-time.
+* Receive error messages when the form is submitted if:
+  * Any input field is empty
+  * The card number, expiry date or CVC fields are in the wrong format.
+* View the optimal layout depending on their device's screen size.
+* See hover, active and focus states for interactive elements on the page.
+
+## Build
+
+Project was carried out using React + Vite. First point of focus was the structure, keeping in mind that the page must be responsive.
+
+Styling kicked-off with setting the margin and padding to 0 and box-sizing to border box to have full control of height and weight of elements of the page.
+
+Body is divided into 2 parts with two distinct colours, the cards were positioned in the first part while the form was positioned in the second. Cards were positioned according to design using the transform-translate property with required values to recreate the design. Flex used to arrange elements where necessary and media queries ensured responsiveness. Inspect and responsive mode on the browser where applied to aid responsiveness and a browser extension called Mobile simulator also helped to preview screen on mobile.
+
+<img src="public/screenshots/Screenshot 2025-08-08 at 16-16-51 .png" alt="">
+
+<img src="public/screenshots/Screenshot 2025-08-08 at 16-17-18 .png" alt="">
+
+<img src="public/screenshots/Screenshot 2025-08-08 at 16-18-02 .png" alt="">
 
 
+## Issues:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# card-form
+Using JavaSript in a different repo worked completely but the react and vite posed a challenge I couldn't complete. The error messages are not appearing in real-time and the completed state UI doesn't render after submitting the form. Help is welcomed.
